@@ -1,0 +1,32 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header">Subnet addresses list</div>
+</div>
+<div class="palm-group">
+	<div class="palm-group-title">
+		<span x-mojo-loc="">IP / Subnet Informations</span>
+	</div>
+	<div class="palm-list">
+	<div class='palm-row single'>
+		<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+			<div class="title">
+				<div class="label" align="left">IP address</div>
+				<div id="ip_addr" x-mojo-element="TextField"></div>
+			</div>
+		</div>
+	</div>
+	<div class='palm-row single'>
+		<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+			<div class="title">
+				<div class="label">Subnet mask</div>
+				<div id="sub_mask" x-mojo-element="TextField"></div>
+			</div>
+		</div>
+	</div>
+	<div class="palm-info-text">
+		<div id="error_msg"></div>
+	</div>
+	<div x-mojo-element="Button" id="get_button"></div>
+	</div>
+</div>
+
+<div id="addr_listing" x-mojo-element="List">

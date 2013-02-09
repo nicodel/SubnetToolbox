@@ -1,0 +1,56 @@
+IT Network Tools is a webos application. It was designed on version 1.4.5 of the Palm SDK, coding was done with Komodo Edit 5.2 and webos 0.4.2b3 extension.
+
+This application contain tools that should be useful to anybody who works on IP adresses, subnets and more generally networks. Thoses tools are as follows :
+
+    * Subnet Details - provides subnet ID, broadcast, number of hosts, wildcard and CIDR notation for a given IP adress and mask.
+
+    * Classful Subnet Creator - calculates subnets based on subnet mask, mask bits, host bits, number of subnets and hosts per subnet. A range of subnets is generated based on these settings.
+	
+    * CIDR Calculator - includes full support for Classless Inter-Domain Routing (CIDR). Use of CIDR addresses reduce the size of routing tables and make more IP addresses available within organizations. This CIDR classless subnetting feature is particularly useful for corporations with many Class C addresses.
+	
+    * Subnet Addresses - generates a list of addresses for any subnet.
+
+
+The first scene gives you the subnet ID, the broadcast, the number of hosts, the wildcard and the CIDR notation based on the IP adress and subnet mask you have provided.
+
+
+Change log:
+v 0.0.3 - New release based on the SubnetCalculator codes. The name was changed 
+
+
+Application Title :  	 IT Network Tools
+Company Name : 	NicoDel
+Primary Category : 	Productivity & Utilities
+Secondary Tags : 	Tools, Calculation, Networking
+YouTube URL : 	
+
+
+Primary Application description :
+
+This is a subnet calculator. You just need to provide an IP adress and a subnet mask, and it will calculate the subnet ID, the broadcast, the number of hosts, the wildcard and the CIDR notation. Additionnal features will come with the future release.
+Long Marketing description :
+
+N/A
+Short Marketing description :
+
+N/A
+
+
+
+
+############################################""
+
+Enter your netmask(s) in CIDR notation (/25) or dotted decimals (255.255.255.0).
+
+Term definitions
+Wildcard: Inverse of netmask. Used by certain firewalls for access control list
+Broadcast: IP broadcast addresses are used for single-packet one-to-everyone delivery. A sending host addresses the IP packet using a broadcast address and every node on the sending node's network segment receives and processes the packet. IP broadcast addresses can be used only as the destination IP address. IP routers do not forward network broadcast packets.
+
+##############################################
+
+Subnet Calculator Highlights:
+
+    * Address Details - provides forward and reverse DNS resolution, response time, address translation (hexadecimal and binary) and address class information. SolarWinds Free Advanced Subnet Calculator also supports resolution of IP address owners to aid in managing your network.
+    * Classful Subnet Creator - calculates subnets based on subnet mask, mask bits, host bits, number of subnets and hosts per subnet. SolarWinds Free Advanced Subnet Calculator also generates a range of subnets based on these settings.
+    * CIDR Calculator - includes full support for Classless Inter-Domain Routing (CIDR). Use of CIDR addresses reduce the size of routing tables and make more IP addresses available within organizations. This CIDR classless subnetting feature is particularly useful for ISPs, universities, or corporations with many Class C addresses.
+    * Subnet Addresses - generates a list of addresses for any subnet, which then becomes the working document from which to assign current and future IP addresses. You can even assign addresses within SolarWinds Free Advanced Subnet Calculator and then print the worksheets.

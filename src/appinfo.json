@@ -1,0 +1,25 @@
+{
+	"id": "com.nicodel.subnettoolbox",
+	"version": "0.0.10",
+	"vendor": "nicodel",
+	"vendorurl": "http://nicoworkspace.free.fr/",
+	"type": "web",
+	"main": "index.html",
+	"title": "Subnet Toolbox",
+	"icon": "icon.png",
+	"copyright": "© Copyright 2009 My Company, Inc.",
+	"support": {
+		"url": "http://nicoworkspace.free.fr/?q=itnetworktools-home",
+		"email": {
+			"address": "nicolas.delebecque@gmail.com",
+			"subject": "Support - Subnet Toolbox"
+		},
+		"resources": [
+			{
+			"type": "web",
+			"label": "nico's workspace",
+			"url": "http://nicoworkspace.free.fr/"
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+09/09/2010 - version 0.0.1
+	First usable version.
+	First scene : Subnet details.
+		Requires a valid IP address and subnet mask (accept only form as xxx.xxx.xxx.xxx).
+		Returns the subnet ID, broadcast, number of hosts, wildcard and CIDR notation.
+
+17/09/2010 - version 0.0.2
+	First scene : Subnet details.
+		Subnet mask can be submitted as CIDR Notation.
+		Error messages display examples of what is excepted.
+
+20/09/2010 - version 0.0.3
+	First scene : Subnet details.
+		Returns the subnet mask in its usual form.
+	Bugs fixed :
+		Various bugs in the subnet mask treatment.
+		
+23/09/2010 - version 0.0.4
+	Main :
+		Calculations functions are placed in a separated file, so they can be used in other scenes.
+	
+06/10/2010 - version 0.0.5 
+	Main :
+		Changing the name of the application to "Subnet Toolbox".
+		Creation of the 4 scenes, each representing the 4 features of the application.
+
+06/10/2010 - version 0.0.6
+	Main :
+		Subnet Details scene is incorporated inside the new application package.
+		
+19/10/2010 - version 0.0.7
+	Classfull Subnet Creator :
+		2 TextFields and 3 ListSelector are implemented for the user to enter its info.
+		Only the IP Address fields has to be filled.
+		Subnet Mask is set to 255.255.255.0 by default if the TextFielmd is empty.
+		When subnet mask is given (by ueser or by default) both number of subnets and number of 
+		hosts are calculated automatically.
+
+10/02/2011 - version 0.0.8
+	Main:
+		First stage is a menu, that a backgesture bring you back to.
+		This menu contains the list of tools:
+			Subnet Details,
+			Classfull Subnet Creator (not available yet),
+			Calculate CIDR (not available yet),
+			Get all subnet addresses (not available yet).
+	Subnet Details:
+		Fields are already "numb locked".
+
+20/02/2011 - version 0.0.9
+	Main:
+		First stage is a menu contains only the following:
+			Subnet Details,
+			Get all subnet addresses.
+
+22/04/2011 - version 0.0.10
+	Main:
+		Getting detailled subnet to work.
+		Putting the IP address and Mask entered inside a cookie for a future re-use.

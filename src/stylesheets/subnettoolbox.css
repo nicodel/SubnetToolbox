@@ -1,0 +1,27 @@
+/* TODO: put your application-specific CSS here */
+
+.logo {
+	position: relative;
+	left: 30%;
+}
+
+.palm-info-text {
+	color:#990000;
+	font-size: 14px;
+}
+
+.mynote {
+	color: #000;
+	font-size: 18px;
+	padding: 5px 5px 5px 5px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.icon-note {
+	height: 32px;
+	width: 32px;
+	float: right;
+	padding: 5px 10px 5px 0px;
+	background: url(../images/note-32x32.png) center no-repeat;
+}

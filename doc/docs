@@ -1,0 +1,32 @@
+to get the logs :
+
+Putty : localhost:5522 (root/)
+# Get appication specific logs
+log com.nicodel.subnettoolbox
+
+# Take a instant screenshot
+luna-send luna://com.palm.systemmanager/takeScreenShot '{"file":"v0.0.1_screenshot_1.png"}'
+
+# send message to putty console
+console.log("Subnet mask field error.");
+
+# Generate package based on Komodo directory architecture
+cd D:\dev\palm_dev\Subnet Toolbox
+palm-package src --outdir=bin\release\
+
+# Install package
+cd D:\dev\palm_dev\Subnet Toolbox
+palm-install bin\release\com.nicodel.subnettoolbox_0.0.10_all.ipk
+
+# Remove and application
+palm-install -r com.nicodel.subnettoolbox
+
+# Create source package
+cd D:\dev\palm_dev\Subnet Toolbox
+izarcc -r -P "bin\source\SubnetToolbox_0.0.XX.tar.gz" "src\*.*" "doc\*.*"
+
+# Follow logs on a Command Prompt window :
+palm-log -f com.nicodel.subnettoolbox
+
+# Launch application ready for Inspector
+palm-launch -i com.nicodel.subnettoolbox
